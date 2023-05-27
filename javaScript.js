@@ -4,7 +4,7 @@
 
 let country = "India";
 let continent = "Asia";
-let population = "145";
+let population = 145;
 
 // console.log(country);
 // console.log(continent);
@@ -28,5 +28,19 @@ const language = "tamil";
 
 // basic operators
 
-let halfOfPopulation = population / 2;
-console.log(halfOfPopulation);
+// let halfOfPopulation = population / 2;
+// console.log(halfOfPopulation);
+
+// let increasedPopulation = population + 1;
+// console.log(increasedPopulation);
+
+// const finlandPopulation = 6;
+// let answer1 = finlandPopulation > population;
+// console.log(answer1);
+
+// const averagePopulation = 33;
+// let answer = averagePopulation > population;
+// console.log(answer);
+
+const description = ${country} is in ${continent}, and its ${population} million people speak  ${language};
+console.log(description);
