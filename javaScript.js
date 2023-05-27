@@ -5,6 +5,7 @@
 let country = "India";
 let continent = "Asia";
 let population = 145;
+const language = "tamil";
 
 // console.log(country);
 // console.log(continent);
@@ -22,7 +23,6 @@ let population = 145;
 
 // let, const & var
 
-const language = "tamil";
 // language = "English";
 // console.log(language);
 
@@ -42,5 +42,14 @@ const language = "tamil";
 // let answer = averagePopulation > population;
 // console.log(answer);
 
-const description = ${country} is in ${continent}, and its ${population} million people speak  ${language};
-console.log(description);
+// let description =
+//   country +
+//   " is in " +
+//   continent +
+//   ", and it's " +
+//   population +
+//   " million speak " +
+//   language;
+// console.log(description);
+
+// Coding Challenge #1
